@@ -38,7 +38,7 @@ jobs:
       - name: Terraform Init
         working-directory: terraform/ecs/default
         # run: terraform init -backend-config=vars/test.backend.tfvars
-          run: terraform init 
+        run: terraform init 
           
       - name: Terraform Format
         working-directory: terraform/ecs/default
